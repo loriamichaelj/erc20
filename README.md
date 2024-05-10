@@ -1,58 +1,42 @@
-# ERC-20 from Scratch
+# ERC20 Token Standard
 
-## Dependencies & Available Scripts
+![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
 
-https://gist.github.com/GlitchicaL/a2df0b1e5c396941f8827797ff8ff845
+## Table of Contents
 
-`rm -rf node node_modules`
+- [About](#about)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
 
-`rm package-lock.json`
+## About
 
-`npm install`
+Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
 
-`npx hardhat`
+- What was your motivation?
+- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
+- What problem does it solve?
+- What did you learn?
 
-`touch .env`
+## Installation
 
-Edit hardhat.config.js
+What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
 
-`require("dotenv").config();`
+## Usage
 
-```javascript
-require("@nomicfoundation/hardhat-toolbox");
-require("dotenv").config();
+Provide instructions and examples for use. Include screenshots as needed.
 
-/** @type import('hardhat/config').HardhatUserConfig */
-module.exports = {
-  solidity: "0.8.9",
-  networks: {
-    localhost: {},
-  },
-};
-```
+To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
 
-### `npx hardhat node`
+    ```md
+    ![alt text](assets/images/screenshot.png)
+    ```
 
-### `npx hardhat compile`
+## Features
 
-### `npx hardhat run --network localhost ./scripts/0_deploy.js`
+If your project has a lot of features, list them here.
 
-### `npm start`
+## Tests
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-![alt text](assets/crcaonsepolia.jpeg)
+Test files and how to run them
