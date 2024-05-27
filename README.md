@@ -1,6 +1,6 @@
 # ERC20 Token Standard
 
-![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
+<!-- ![badmath](https://img.shields.io/github/languages/top/lernantino/badmath) -->
 
 ## Table of Contents
 
@@ -9,6 +9,7 @@
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
+- [Links](#links)
 
 ## About
 
@@ -40,3 +41,7 @@ If your project has a lot of features, list them here.
 ## Tests
 
 Test files and how to run them
+
+## Links
+
+![](assets/crcaonsepolia.jpeg)
