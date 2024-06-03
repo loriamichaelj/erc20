@@ -1,47 +1,34 @@
-# ERC20 Token Standard
+# Trading Bot Demo
 
-<!-- ![badmath](https://img.shields.io/github/languages/top/lernantino/badmath) -->
+## Technology Stack & Tools
 
-## Table of Contents
+- Solidity (Writing Smart Contract)
+- Javascript (React & Testing)
+- [Hardhat](https://hardhat.org/) (Development Framework)
+- [Ethers.js](https://docs.ethers.io/v5/) (Blockchain Interaction)
 
-- [About](#about)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
-- [Links](#links)
+## Requirements For Initial Setup
 
-## About
+- Install [NodeJS](https://nodejs.org/en/). We recommend using the latest LTS (Long-Term-Support) version, and preferably installing NodeJS via [NVM](https://github.com/nvm-sh/nvm#intro).
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+## Setting Up
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+### 1. Clone/Download the Repository
 
-## Installation
+### 2. Install Dependencies:
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+`npm install`
 
-## Usage
+### 3. Start Hardhat Node:
 
-Provide instructions and examples for use. Include screenshots as needed.
+In your terminal run:
+`npx hardhat node`
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+_As a reminder, do **NOT** use or fund the accounts/keys provided by the hardhat node in a real production setting, they are to be only used in your local testing!_
 
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+### 4. Deploy Smart Contract
 
-## Features
-
-If your project has a lot of features, list them here.
-
-## Tests
-
-Test files and how to run them
-
-## Links
+In a separate terminal run:
+`npx hardhat run scripts/deploy.js --network localhost`
 
 ![](assets/crcaonsepolia.jpeg)
