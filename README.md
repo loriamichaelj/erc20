@@ -1,4 +1,4 @@
-# Trading Bot Demo
+# ERC20 Token Standard
 
 ## Technology Stack & Tools
 
