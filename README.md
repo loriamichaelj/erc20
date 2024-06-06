@@ -1,5 +1,9 @@
 # ERC20 Token Standard
 
+Purpose: Standard smart contract methods implemented for tokens created on the Ethereum blockchain.
+
+Tokens can represent virtually anything in Ethereum. Tokens can represent fiat currency like USD, reputation points in an online platform, skills of a character in a game, financial assets like a share in a company, an ounce of gold and more.
+
 ## Technology Stack & Tools
 
 - Solidity (Writing Smart Contract)
